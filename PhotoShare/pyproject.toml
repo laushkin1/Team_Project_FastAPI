@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "photoshare"
+version = "0.1.0"
+description = ""
+authors = ["Pavlik-Ravlik <pastet1990@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.2"
+uvicorn = {extras = ["standart"], version = "^0.23.2"}
+sqlalchemy = "^2.0.21"
+psycopg2 = "^2.9.9"
+python-multipart = "^0.0.6"
+alembic = "^1.12.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+libgravatar = "^1.0.4"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-dotenv = "^1.0.0"
+cloudinary = "^1.36.0"
+pydantic = {extras = ["email"], version = "^2.4.2"}
+pydantic-settings = "^2.0.3"
+fastapi-mail = "^1.4.1"
+qrcode = "^7.4.2"
+fastapi-limiter = "^0.1.5"
+bytesbufio = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
